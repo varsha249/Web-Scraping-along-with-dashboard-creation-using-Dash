@@ -72,8 +72,6 @@ This project demonstrates the process of **web scraping** data from an e-commerc
 
 ```
 
----
-
 ## **Key Functions**
 ### **Web Scraper (`webscraping.ipynb`)**
 - **`get_total_pages(url, headers)`**:
