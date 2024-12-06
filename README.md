@@ -70,7 +70,6 @@ This project demonstrates the process of **web scraping** data from an e-commerc
    Open the link provided in the terminal in your browser.
 
 
-```
 
 ## **Key Functions**
 ### **Web Scraper (`webscraping.ipynb`)**
