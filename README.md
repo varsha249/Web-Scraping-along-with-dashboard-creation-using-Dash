@@ -94,7 +94,7 @@ This project demonstrates the process of **web scraping** data from an e-commerc
 - Add more product categories (e.g., laptops, tablets) to the scraper.
 - Including additional visualizations (e.g., average price by brand).
 - Integrating advanced anti-scraping techniques like proxy rotation.
-- Deploying the dashboard to a cloud platform (e.g., Heroku, AWS).
+- Deploying the dashboard to a cloud platform (e.g., Heroku, AWS).. 
 
 ---
 
