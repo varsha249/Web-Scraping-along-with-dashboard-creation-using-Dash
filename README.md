@@ -1,6 +1,6 @@
 # Web Scraping and Dashboard Creation using Dash
 
-This project demonstrates the process of **web scraping** data from an e-commerce website (Jumia), cleaning and organizing the scraped data, and building an **interactive dashboard** using **Dash** and **Plotly** to visualize the results. The project focuses on smartphones, showcasing product prices, ratings, and links for further exploration.
+This project demonstrates the process of **web scraping** data from an e-commerce website (Jumia), cleaning and organizing the scraped data, and building an **interactive dashboard** using **Dash** and **Plotly** to visualize the results. The project focuses on smartphones, showcasing product prices, ratings, and links for further exploration. .
 
 ---
 
