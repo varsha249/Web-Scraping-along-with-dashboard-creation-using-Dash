@@ -30,7 +30,7 @@ This project demonstrates the process of **web scraping** data from an e-commerc
 ### **Web Scraping**
 - `requests`: To send HTTP requests and fetch webpage content.
 - `BeautifulSoup`: To parse and extract data from HTML.
-- `random` and `time`: To mimic human-like behavior with randomized delays.
+- `selenium - webdriver`: To mimic web browsing activity
 - `logging`: To track errors and debug issues during scraping.
 
 ### **Data Handling**
@@ -52,7 +52,7 @@ This project demonstrates the process of **web scraping** data from an e-commerc
 2. **Install Dependencies**:
    Ensure you have Python 3.7+ installed. Then install the required libraries:
    ```bash
-   pip install pandas BeautifulSoup requests random logging 
+   pip install pandas BeautifulSoup requests selenium logging 
    ```
 
 3. **Run the Web Scraper**:

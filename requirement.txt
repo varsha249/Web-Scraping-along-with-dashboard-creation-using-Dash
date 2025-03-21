@@ -1,0 +1,4 @@
+pandas==2.2.3
+BeautifulSoup4==4.13.3
+requests==2.32.3
+selenium==4.29.0
