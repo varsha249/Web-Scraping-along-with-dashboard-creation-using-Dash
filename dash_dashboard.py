@@ -30,7 +30,7 @@ app.layout = html.Div([
             id="price-slider",
             min=int(df["Price"].min()),
             max=int(df["Price"].max()),
-            step=1000,
+            step=5000,
             value=[int(df["Price"].min()), int(df["Price"].max())],
             marks={i: f"KSh {i}" for i in range(0, int(df["Price"].max()) + 1, 5000)}
         ),
@@ -46,7 +46,7 @@ app.layout = html.Div([
             value=0,
             clearable=False
         ),
-    ], style={"width": "50%", "margin": "auto"}),
+    ], style={"width": "100%", "margin": "auto"}),
 
     html.Div([
         dcc.Graph(id="price-distribution"),
@@ -94,7 +94,7 @@ def update_dashboard(price_range, min_rating):
     )
 
     # Top Products Table
-    top_products = filtered_df.sort_values(by="Rating", ascending=False).head(10)
+    top_products = filtered_df.sort_values(by="Rating", ascending=False).head(100)
     table_html = html.Table([
         html.Thead(html.Tr([html.Th("Product Name"), html.Th("Price"), html.Th("Rating")])),
         html.Tbody([
@@ -110,4 +110,4 @@ def update_dashboard(price_range, min_rating):
 
 # Running the app
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run(debug=True)
